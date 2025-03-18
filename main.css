@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+.bg{
+    background:aliceblue;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    text-align: center;
+    padding-top: 2rem;
+}
+.logo img{  
+    width: 220px;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul button{width: 100%;
+    align-items:center;
+    padding: 1rem 5rem;
+    text-align: center;
+    background-color: #5f8db1;
+    border-radius: 1rem;
+    max-width: 300px;
+    box-shadow: -10px 10px 1rem #5f8db1;
+    margin: 10px 20px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.footer {
+    background-color: #5f8db1; /* Warna latar belakang gelap */
+    color: #fff; /* Warna teks putih */
+    text-align: center; /* Teks di tengah */
+    padding: 25px 30px; /* Jarak dalam */
+    font-size: 14px; /* Ukuran teks */
+}
+.prev {
+    position: relative;
+    top: 1.5rem;
+    margin-left: 0.5rem;
+}
+.prev a  {
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #5f8db1;
+    box-shadow: -1px 10px 1rem #5f8db1;
+}
